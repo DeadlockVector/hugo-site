@@ -1,4 +1,16 @@
 baseURL = 'https://deadlockvector.github.io/hugo-site/'
 languageCode = 'en-us'
-title = 'Hugo Websites'
+title = 'Blogbrew'
 theme = 'bilberry'
+
+[params]
+    subtitle = "Task-03: Lesgoo Hugo"
+    permanentTopNav = false
+    showReadingTime = true
+    showFooter = true
+    showSocialMedia = true
+
+    socialMediaLinks = [
+      { link = "https://youtu.be/IHQr0HCIN2w?si=7f4LAksJbR--C54m", icon = "fab fa-youtube", rel = "me" },
+      { link = "https://github.com/DeadlockVector", icon = "fab fa-github" },
+    ]
